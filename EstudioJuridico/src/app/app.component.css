@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Bodoni MT";
+    src: url("/assets/fonts/bodoni-mt-regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+*{
+    font-family: Bodoni Mt;
+}
