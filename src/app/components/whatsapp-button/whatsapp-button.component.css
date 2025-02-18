@@ -1,0 +1,26 @@
+.button-ws{
+    background-color: #121518;
+    border: 7px solid #aa9166;
+    border-radius: 0;
+}
+#ws-icon{
+    width: 8rem;
+}
+#esposas-icon{
+    height: auto;
+}
+
+@media (max-width: 700px) {
+    #esposas-icon{
+      content: url("/assets/img/urgencias-700.svg");
+      width: calc(100vw - 14px) ;
+    }
+  }
+
+@media (min-width:768px) and (max-width:791px){
+    .text-ws{
+        padding: 0 !important; 
+    } 
+}
+
+  
