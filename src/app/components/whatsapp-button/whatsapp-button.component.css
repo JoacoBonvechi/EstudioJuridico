@@ -1,5 +1,5 @@
 .button-ws{
-    background-color: #121518;
+    background: linear-gradient(180deg, #121518, #121518, #121518, #121518, #121518, #121518, #15181a, #1b1d1f, #202223, #262728, #2c2d2d, #323232);
     border: 7px solid #aa9166;
     border-radius: 0;
 }

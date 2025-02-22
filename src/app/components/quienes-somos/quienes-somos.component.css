@@ -1,3 +1,9 @@
+.img-nestor{
+    border:  solid 5px #000000;
+    border-radius: 0;
+    width: 350px;
+}
+
 h2 {
     margin: 0;
     position: relative;
@@ -30,20 +36,15 @@ h2 {
     border-bottom: 1px solid #aa9166;
     z-index: -1;
 }
-
-
-.card-areas{
-    background-color: black;
-    width: 400px;
+#foto-estudio{
+    height: 20rem;
 }
-.section-card-areas{
-    background-color: #121518;
-}
-.text-card{
-    color:#AA9166;
-}
-.leer-mas{
-    color:#AA9166;
-    border: 3px solid #aa9166;
+.btn-tiktok{
+    background: linear-gradient(180deg, #121518, #121518, #121518, #121518, #121518, #121518, #15181a, #1b1d1f, #202223, #262728, #2c2d2d, #323232);
+    border: 7px solid #aa9166;
     border-radius: 0;
+}
+.redes{
+    margin-top:7rem ;
+    margin-bottom:7rem ;
 }
