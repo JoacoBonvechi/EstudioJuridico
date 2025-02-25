@@ -42,3 +42,14 @@ h2 {
 .title{
     color: #800000 !important;
 }
+.banner{
+    background-color: #aa9166;
+}
+.bar{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(18, 21, 24);
+}
+h2 {
+    color: rgb(18, 21, 24);
+}

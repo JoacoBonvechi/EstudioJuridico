@@ -64,3 +64,24 @@ textarea {
     border: 7px solid #aa9166;
     border-radius: 0;
 }
+.btn{
+    transition: all ease 400ms;
+}
+.btn:hover {
+    color: #121518;
+    background: #aa9166;
+    transition: all ease 400ms;
+}
+
+
+.banner{
+    background-color: #aa9166;
+}
+.bar{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(18, 21, 24);
+}
+h2 {
+    color: rgb(18, 21, 24);
+}

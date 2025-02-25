@@ -47,3 +47,18 @@ h2 {
     border: 3px solid #aa9166;
     border-radius: 0;
 }
+.btn{
+    transition: all ease 400ms;
+}
+.card-areas:hover .btn {
+    color: #121518;
+    background: #aa9166;
+    transition: all ease 400ms;
+}
+img{
+    transition: all ease 400ms;
+}
+.card-areas:hover img {
+    transform: translate(0px, -15px);
+    transition: all ease 400ms;
+}

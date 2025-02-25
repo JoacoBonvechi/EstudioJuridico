@@ -42,6 +42,19 @@ h2 {
     margin-top:7rem ;
     margin-bottom:7rem ;
 }
+
+.banner{
+    background-color: #aa9166;
+}
+.bar{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(18, 21, 24);
+}
+h2 {
+    color: rgb(18, 21, 24);
+}
+
 @media (max-width:1400px){
     .estudio{
         width: 35rem;
