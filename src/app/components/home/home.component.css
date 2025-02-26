@@ -106,6 +106,20 @@
     height: 25rem;
 }
 
+.leer-mas{
+    color:#AA9166;
+    border: 3px solid #aa9166;
+    border-radius: 0;
+}
+.btn{
+    transition: all ease 400ms;
+    background-color: #121518;
+}
+.btn:hover {
+    color: #121518;
+    background: #aa9166;
+    transition: all ease 400ms;
+}
 @media (max-width: 767.98px) {
     .carousel .carousel-caption h1 {
         font-size: 40px;

@@ -1,75 +1,80 @@
 .carousel img {
-    width: 70px;
-    max-height: 70px;
-    border-radius: 50%;
-    
+  width: 70px;
+  max-height: 70px;
+  border-radius: 50%;
+
+  overflow: hidden;
+}
+
+.carousel-inner {
+  padding: 1em;
+}
+
+.star {
+  width: 3rem;
+  height: 3rem;
+}
+
+.card-title {
+  color: #AA9166;
+}
+
+.card {
+  background: linear-gradient(180deg, #121518, #121518, #121518, #121518, #121518, #121518, #15181a, #1b1d1f, #202223, #262728, #2c2d2d, #323232);
+  /* made at https://learnui.design/tools/gradient-generator.html */
+  width: 550px;
+  border: 3px solid #aa9166 !important;
+  border-radius: 0;
+}
+
+
+@media screen and (max-width:576px) {
+  .card {
+    width: 90vw;
+  }
+
+  .star {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+}
+
+@media screen and (min-width: 576px) {
+  .carousel-inner {
+    display: flex;
+    width: 90%;
+    margin-inline: auto;
+    padding: 1em 0;
     overflow: hidden;
   }
 
-  .carousel-inner {
-    padding: 1em;
+  .carousel-item {
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100% / 2);
   }
+}
 
-  .star{
-    width: 3rem;
-    height: 3rem;
+@media screen and (min-width: 1024px) {
+  .carousel-item {
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100% / 3);
   }
+}
 
-  .card-title{
-    color: #AA9166;
-  }
+.carousel .card {
+  margin: 0 0.5em;
+  border: 0;
+}
 
-  .card{
-    background: linear-gradient(180deg, #121518, #121518, #121518, #121518, #121518, #121518, #15181a, #1b1d1f, #202223, #262728, #2c2d2d, #323232); /* made at https://learnui.design/tools/gradient-generator.html */
-    width: 550px;
-    border: 3px solid #aa9166 !important; 
-    border-radius: 0;
-  }
-
-
-  @media screen and (max-width:576px){
-    .card{
-      width: 90vw;
-    }
-    .star{
-      width: 1.5rem;
-      height: 1.5rem;
-    }
-    
-  }
-
-  @media screen and (min-width: 576px) {
-    .carousel-inner {
-      display: flex;
-      width: 90%;
-      margin-inline: auto;
-      padding: 1em 0;
-      overflow: hidden;
-    }
-    .carousel-item {
-      display: block;
-      margin-right: 0;
-      flex: 0 0 calc(100% / 2);
-    }
-  }
-  @media screen and (min-width: 1024px) {
-    .carousel-item {
-      display: block;
-      margin-right: 0;
-      flex: 0 0 calc(100% / 3);
-    }
-  }
-  .carousel .card {
-    margin: 0 0.5em;
-    border: 0;
-  }
-  
-  .carousel-control-prev,
-  .carousel-control-next {
-    width: 3rem;
-    height: 3rem;
-    background-color: grey;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+.carousel-control-prev,
+.carousel-control-next {
+  width: 3rem;
+  height: 3rem;
+  background-color: grey;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
