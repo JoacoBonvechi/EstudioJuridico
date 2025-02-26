@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './whatsapp-button.component.css'
 })
 export class WhatsappButtonComponent {
-  phoneNumber: string = '541158712207'; // Número sin "+" ni espacios
+  phoneNumber: string = '541164385555'; // Número sin "+" ni espacios
   message: string = 'Quiero realizar una consulta legal';
 
   openWhatsApp() {
