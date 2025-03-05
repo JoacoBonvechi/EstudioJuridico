@@ -1,0 +1,11 @@
+{
+  "routes": {
+    "/EstudioJuridico": {},
+    "/EstudioJuridico/areas-de-practica": {},
+    "/EstudioJuridico/contacto": {},
+    "/EstudioJuridico/defensas-penales": {},
+    "/EstudioJuridico/home": {},
+    "/EstudioJuridico/quienes-somos": {},
+    "/EstudioJuridico/ubicacion": {}
+  }
+}
