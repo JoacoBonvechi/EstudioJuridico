@@ -163,13 +163,13 @@
 
 @media (max-width: 1000px) {
     #dama-justicia {
-      content: url("/assets/img/foto-carousel1-max1000.png");
+      content: url("/EstudioJuridico/assets/img/foto-carousel1-max1000.png");
     }
   }
 
   @media (max-width: 1000px) {
     #esposas {
-      content: url("/assets/img/foto-carousel3-max1000.png");
+      content: url("/EstudioJuridico/assets/img/foto-carousel3-max1000.png");
     }
   }
 

@@ -12,7 +12,8 @@
 
 @media (max-width: 768px) {
     #esposas-icon{
-      content: url("/assets/img/urgencias-700.svg");
+      content: url("/EstudioJuridico/assets/img/urgencias-700.svg");
+      
       width: calc(80vw - 14px) ;
     }
 
