@@ -14,6 +14,8 @@ export const routes: Routes = [
 {path: 'defensas-penales', component: DefensasPenalesComponent},
 {path: 'ubicacion', component: UbicacionComponent},
 {path: 'contacto', component: ContactoComponent},
+{ path: '', component: HomeComponent }, // Ruta por defecto (home)
+{ path: '**', component: HomeComponent }, // Ruta 404
 
 
 {path: '**', redirectTo: 'home'}
