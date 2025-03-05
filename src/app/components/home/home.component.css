@@ -181,4 +181,15 @@
     }
 
   }
+  .custom-container {
+    width: 100%;
+    max-width: 2000px; /* Máximo ancho de 2000px */
+    margin: 0 auto; /* Centrarlo */
+  }
+  
+  @media (min-width: 2000px) {
+    .custom-container {
+      width: 70vw; /* 70% del viewport width */
+    }
+  }
 
